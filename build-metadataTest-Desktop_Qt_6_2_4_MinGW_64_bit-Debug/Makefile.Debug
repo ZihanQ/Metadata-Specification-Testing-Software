@@ -395,6 +395,27 @@ debug/main.o: ../metadataTest/main.cpp ../metadataTest/mainwindow.h \
 		D:/qt/6.2.4/mingw_64/include/QtCore/qnativeinterface.h \
 		D:/qt/6.2.4/mingw_64/include/QtWidgets/qtabwidget.h \
 		D:/qt/6.2.4/mingw_64/include/QtGui/qicon.h \
+		D:/qt/6.2.4/mingw_64/include/QtWidgets/QFileDialog \
+		D:/qt/6.2.4/mingw_64/include/QtWidgets/qfiledialog.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qdir.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qfile.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qfiledevice.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qfileinfo.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qdatetime.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qcalendar.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qlocale.h \
+		D:/qt/6.2.4/mingw_64/include/QtWidgets/qdialog.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/QFile \
+		D:/qt/6.2.4/mingw_64/include/QtCore/QJsonDocument \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qjsondocument.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qjsonvalue.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qcborvalue.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qcborcommon.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qregularexpression.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/quuid.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/QJsonObject \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qjsonobject.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/QDebug \
 		D:/qt/6.2.4/mingw_64/include/QtWidgets/QApplication \
 		D:/qt/6.2.4/mingw_64/include/QtWidgets/qapplication.h \
 		D:/qt/6.2.4/mingw_64/include/QtCore/qcoreapplication.h \
@@ -414,8 +435,29 @@ debug/main.o: ../metadataTest/main.cpp ../metadataTest/mainwindow.h \
 		D:/qt/6.2.4/mingw_64/include/QtCore/qpromise.h \
 		D:/qt/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
 		D:/qt/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
-		D:/qt/6.2.4/mingw_64/include/QtCore/qlocale.h \
-		D:/qt/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h
+		D:/qt/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/QJsonParseError \
+		../metadataTest/rapidjson/document.h \
+		../metadataTest/rapidjson/reader.h \
+		../metadataTest/rapidjson/allocators.h \
+		../metadataTest/rapidjson/rapidjson.h \
+		../metadataTest/rapidjson/msinttypes/stdint.h \
+		../metadataTest/rapidjson/msinttypes/inttypes.h \
+		../metadataTest/rapidjson/internal/meta.h \
+		../metadataTest/rapidjson/stream.h \
+		../metadataTest/rapidjson/encodings.h \
+		../metadataTest/rapidjson/encodedstream.h \
+		../metadataTest/rapidjson/memorystream.h \
+		../metadataTest/rapidjson/internal/clzll.h \
+		../metadataTest/rapidjson/internal/stack.h \
+		../metadataTest/rapidjson/internal/swap.h \
+		../metadataTest/rapidjson/internal/strtod.h \
+		../metadataTest/rapidjson/internal/ieee754.h \
+		../metadataTest/rapidjson/internal/biginteger.h \
+		../metadataTest/rapidjson/internal/diyfp.h \
+		../metadataTest/rapidjson/internal/pow10.h \
+		../metadataTest/rapidjson/error/error.h \
+		../metadataTest/rapidjson/internal/strfunc.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\metadataTest\main.cpp
 
 debug/mainwindow.o: ../metadataTest/mainwindow.cpp ../metadataTest/mainwindow.h \
@@ -548,7 +590,36 @@ debug/mainwindow.o: ../metadataTest/mainwindow.cpp ../metadataTest/mainwindow.h 
 		D:/qt/6.2.4/mingw_64/include/QtCore/qnativeinterface.h \
 		D:/qt/6.2.4/mingw_64/include/QtWidgets/qtabwidget.h \
 		D:/qt/6.2.4/mingw_64/include/QtGui/qicon.h \
-		ui_mainwindow.h
+		ui_mainwindow.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/QVariant \
+		D:/qt/6.2.4/mingw_64/include/QtWidgets/QApplication \
+		D:/qt/6.2.4/mingw_64/include/QtWidgets/qapplication.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qcoreapplication.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qeventloop.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qfuture.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qfutureinterface.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qmutex.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qresultstore.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qfuture_impl.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qthreadpool.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qthread.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qdeadlinetimer.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qelapsedtimer.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qrunnable.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qexception.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qpromise.h \
+		D:/qt/6.2.4/mingw_64/include/QtGui/qguiapplication.h \
+		D:/qt/6.2.4/mingw_64/include/QtGui/qinputmethod.h \
+		D:/qt/6.2.4/mingw_64/include/QtCore/qlocale.h \
+		D:/qt/6.2.4/mingw_64/include/QtGui/qguiapplication_platform.h \
+		D:/qt/6.2.4/mingw_64/include/QtWidgets/QMenuBar \
+		D:/qt/6.2.4/mingw_64/include/QtWidgets/qmenubar.h \
+		D:/qt/6.2.4/mingw_64/include/QtWidgets/qmenu.h \
+		D:/qt/6.2.4/mingw_64/include/QtGui/qaction.h \
+		D:/qt/6.2.4/mingw_64/include/QtWidgets/QStatusBar \
+		D:/qt/6.2.4/mingw_64/include/QtWidgets/qstatusbar.h \
+		D:/qt/6.2.4/mingw_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\metadataTest\mainwindow.cpp
 
 debug/moc_mainwindow.o: debug/moc_mainwindow.cpp 
